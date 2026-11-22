@@ -1,0 +1,49 @@
+# OS & Editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# JVM / Gradle / Maven
+build/
+target/
+out/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Node / JS / TS
+node_modules/
+dist/
+.npm/
+npm-debug.log*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Rust / Native / WASM
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.wasm
+
+# Benchmarks, Capsules & Temp Outputs
+bench-out/
+capsules-tmp/
+*.log
+*.tmp
+.env
+.env.local
